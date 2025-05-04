@@ -1,0 +1,102 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Background */
+body {
+    overflow-x: hidden;
+    font-family: 'Arial', sans-serif;
+    background: #f4f7fc;
+    color: #333;
+    display: flex;
+   position: relative;
+   left: 50vh;
+    align-items: center;
+    
+    height: 100vh;
+}
+
+/* Container to center the content */
+.container {
+    max-width: 800px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Intro Section */
+.intro-section {
+    width: 100%;
+}
+
+/* Intro Text Styling */
+.intro-text h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Description Styling */
+.description {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+}
+
+/* Strength Section */
+.strength {
+    margin-bottom: 30px;
+}
+
+.strength h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #2980b9;
+    margin-bottom: 10px;
+}
+
+.strength ul {
+    list-style-type: none;
+}
+
+.strength li {
+    font-size: 1.2rem;
+    color: #34495e;
+    margin: 10px 0;
+}
+
+/* Why Section */
+.why h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #e67e22;
+    margin-bottom: 10px;
+}
+
+.why p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    line-height: 1.6;
+}
+
+/* Animations for Smooth Effect */
+.intro-section {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
