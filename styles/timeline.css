@@ -1,0 +1,39 @@
+.timeline__header {
+  color: var(--secondary-text-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.timeline__list {
+  list-style: none;
+  padding-left: 0;
+  border-left: 3px solid var(--border-color);
+  margin-left: 10px;
+}
+
+.timeline__list li {
+  padding-left: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline__list li::before {
+  content: "";
+  position: absolute;
+  left: -7px;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  background-color: var(--text-decoration-color);
+  border-radius: 50%;
+}
+
+.timeline__year {
+  font-weight: bold;
+  color: var(--primary-text-color);
+  margin-right: 10px;
+}
+
+.timeline__event {
+  color: var(--secondary-text-color);
+}
